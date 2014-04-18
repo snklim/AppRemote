@@ -1,6 +1,7 @@
 ﻿using AppRemote.ServerClient;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.Linq;
 using System.Net.Sockets;
 using System.Runtime.Remoting;
@@ -38,7 +39,9 @@ namespace AppRemote.Client
                 }
             }
 
-            object obj = Activator.GetObject(typeof(RemotableType), "http://localhost:9000/TalkIsGood");
+            string serverHostUrl = ConfigurationManager.AppSettings["ServerHostUrl"];
+
+            object obj = Activator.GetObject(typeof(RemotableType), serverHostUrl);
             RemotableType remotableType = (RemotableType)obj;
             
             Console.WriteLine(remotableType.SayHello());
