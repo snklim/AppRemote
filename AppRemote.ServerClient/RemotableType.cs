@@ -23,8 +23,6 @@ namespace AppRemote.ServerClient
 
             new Thread(() =>
             {
-                Thread.Sleep(2000);
-
                 foreach (CallbackType cb in _callbacks)
                 {
                     cb.SayStatus(new Record { Type = "red" });
