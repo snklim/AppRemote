@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRemote.Server", "AppRemote.Server\AppRemote.Server.csproj", "{FCB32414-C55F-4B9B-835D-F50CBD4E2DA9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRemote.Client", "AppRemote.Client\AppRemote.Client.csproj", "{50582CE2-3B78-4B5C-A9E2-EDE3C99BFA97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppRemote.ServerClient", "AppRemote.ServerClient\AppRemote.ServerClient.csproj", "{BA6DAAD1-F454-47BC-8F50-7CB7331E8D32}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FCB32414-C55F-4B9B-835D-F50CBD4E2DA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FCB32414-C55F-4B9B-835D-F50CBD4E2DA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FCB32414-C55F-4B9B-835D-F50CBD4E2DA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FCB32414-C55F-4B9B-835D-F50CBD4E2DA9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50582CE2-3B78-4B5C-A9E2-EDE3C99BFA97}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50582CE2-3B78-4B5C-A9E2-EDE3C99BFA97}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50582CE2-3B78-4B5C-A9E2-EDE3C99BFA97}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50582CE2-3B78-4B5C-A9E2-EDE3C99BFA97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA6DAAD1-F454-47BC-8F50-7CB7331E8D32}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA6DAAD1-F454-47BC-8F50-7CB7331E8D32}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA6DAAD1-F454-47BC-8F50-7CB7331E8D32}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA6DAAD1-F454-47BC-8F50-7CB7331E8D32}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
