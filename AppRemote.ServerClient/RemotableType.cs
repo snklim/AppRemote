@@ -27,7 +27,7 @@ namespace AppRemote.ServerClient
 
                 foreach (CallbackType cb in _callbacks)
                 {
-                    cb.SayStatus("new connection");
+                    cb.SayStatus(new Record { Type = "red" });
                 }
 
             }).Start();

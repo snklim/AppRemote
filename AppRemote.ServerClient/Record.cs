@@ -6,11 +6,9 @@ using System.Threading.Tasks;
 
 namespace AppRemote.ServerClient
 {
-    public class CallbackType : MarshalByRefObject
+    [Serializable]
+    public class Record
     {
-        public void SayStatus(Record status)
-        {
-            Console.WriteLine(status.Type);
-        }
+        public string Type { get; set; }
     }
 }
